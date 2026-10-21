@@ -1,0 +1,9 @@
+# Any pydantic-ai "provider:model" string. Examples:
+#   anthropic:claude-sonnet-5
+#   openai:gpt-5
+#   google-gla:gemini-2.5-pro
+#   ollama:llama3.3          (fully local, no data leaves your machine)
+model: anthropic:claude-sonnet-5
+
+# Where your profile, plans and activity data are stored.
+data_dir: data
